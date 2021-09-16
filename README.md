@@ -1,6 +1,11 @@
 # knn_clustering
 Implementation of the K nearest neighborhood clustering method in the Python programming language using pandas library.
 
+Resources: 
+Shuigeng Zhou, Yue Zhao, Jihong Guan,
+Joshua Zhexue Huang: A Neighborhood-Based
+Clustering Algorithm. PAKDD 2005: 361-371
+
 ## Script runing
 In order to run the script please create virtual environment: 
 `python3 -m venv env` 
