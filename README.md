@@ -8,6 +8,6 @@ and install the required libraries:
 `pip install -r requirements.txt`
 Now you are ready to cluster:
 * `python src/main.py -m file` data to cluster will be fetched from local. 
-* `python src/main.py -m random` data will be randomly generated. 
+* `python src/main.py -m random` data to cluster will be randomly generated. 
 ## Example results
 ![GitHub Logo](/results.png)
