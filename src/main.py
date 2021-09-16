@@ -46,6 +46,8 @@ if __name__ == "__main__":
         df = pd.DataFrame(data)
     elif args.mode == "file":
         df = read_sample(SAMPLE)
+    else:
+        raise argparse.ArgumentError(None, "No argument was passed during the run!")
 
     # Chunk data for multiprocessing
     chunks = np.array_split(df.index.values, n)
